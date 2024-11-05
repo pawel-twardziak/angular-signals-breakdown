@@ -10,11 +10,14 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": ["es2021", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-signals-breakdown/nano-angular": ["nano-angular/src/index.ts"],
+      "@angular-signals-breakdown/nano-signals": ["nano-signals/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

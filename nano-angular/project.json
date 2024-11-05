@@ -1,0 +1,26 @@
+{
+  "name": "nano-angular",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "nano-angular/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/nano-angular",
+        "main": "nano-angular/src/index.ts",
+        "tsConfig": "nano-angular/tsconfig.lib.json",
+        "assets": ["nano-angular/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "nano-angular/jest.config.ts"
+      }
+    }
+  }
+}

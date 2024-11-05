@@ -1,0 +1,9 @@
+{
+  "name": "nano-app",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "nano-app/src",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project nano-app --web",
+  "targets": {}
+}
