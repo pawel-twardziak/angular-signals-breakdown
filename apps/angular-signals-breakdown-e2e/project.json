@@ -1,0 +1,9 @@
+{
+  "name": "angular-signals-breakdown-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/angular-signals-breakdown-e2e/src",
+  "implicitDependencies": ["angular-signals-breakdown"],
+  "// targets": "to see all targets run: nx show project angular-signals-breakdown-e2e --web",
+  "targets": {}
+}
